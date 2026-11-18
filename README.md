@@ -75,4 +75,12 @@ llm-from-scratch/
 
 Добавляем Hugging Face как второй remote-сервер
 ```git remote add hf https://huggingface.co/spaces/chicoumbetov/llm-from-scratch```
-Отправляем код в Hugging Face git push hf main --force
+Отправляем код в Hugging Face ```git push hf main --force```
+
+# Make sure the hf CLI is installed
+curl -LsSf https://hf.co/cli/install.sh | bash
+
+# Download the Space
+hf download chicoumbetov/llm-from-scratch --repo-type=space
+
+git remote set-url hf https://chicoumbetov:HF_TOKEN@huggingface.co/spaces/chicoumbetov/llm-from-scratch
