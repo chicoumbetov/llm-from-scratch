@@ -1,3 +1,17 @@
+---
+title: Llm From Scratch
+emoji: 🔥
+colorFrom: blue
+colorTo: pink
+sdk: gradio
+sdk_version: 6.32.0
+python_version: '3.12'
+app_file: app.py
+pinned: false
+license: mit
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 # LLM from Scratch: Neural Networks Laboratory
 
 Educational laboratory implementing foundational deep learning models from first principles, based on Andrej Karpathy's "Neural Networks: Zero to Hero" course.
