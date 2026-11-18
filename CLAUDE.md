@@ -18,3 +18,4 @@
 - Read the active phase spec (`phase-XX.md`) before writing code.
 - Implement step-by-step; run `pytest` after completing each module.
 - Do not skip steps or modify existing phase requirements.
+- Write history of executed steps in docs/history.md
